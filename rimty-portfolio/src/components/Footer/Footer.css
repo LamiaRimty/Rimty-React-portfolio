@@ -1,0 +1,23 @@
+.foorterImg{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+
+.footer-intro{
+    font-weight: 500;
+ 
+}
+.footer-brand{
+  
+    font-size: 20px;
+}
+
+.footer-intro{
+    color: antiquewhite;
+}
+
+#footer{
+background-color:var(--first-color-2nd);
+
+}
