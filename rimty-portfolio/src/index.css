@@ -1,0 +1,187 @@
+/* https://colorhunt.co/palette/c8e4b29ed2be7eaa92ffd9b7 */
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  text-decoration: none;
+  list-style: none
+
+} 
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+
+:root{
+
+
+  /* Color */
+ /* https://colorhunt.co/palette/faf1e4cedebd9eb384435334 */
+  --first-color: #435334;
+  --first-color-2nd:#9EB384 ;
+  --first-color-alt:#9EB384;
+  --first-color-lighter:#CEDEBD ;
+  --title-color:  #435334 ;
+  --text-color:var(--first-color);
+  --text-color-light:#9EB384;
+  --input-color: #092532;
+  --body-color: #FAF1E4;
+  --container-color: #FAF1E4;
+  --scroll-bar-color:#CEDEBD;
+  --scroll-thumb-color:#9EB384;
+  
+
+  
+  --body-font:font-family: 'Lora', serif;
+  --big-font: 32px;
+  --h1:32px;
+  --h2:24px;
+  --h3:20px;
+  --normal-font: 16px;
+  --small-font:14px;
+  --smaller-font:12px;
+  --font-medium:500;
+  --font-semi-bold:600;
+
+  --mb-0-25:4px;
+  --mb-0-5:8px;
+  --mb-0-75:12px;
+  --mb-1:16px;
+  --mb-1-5:24px;
+  --mb-2:32px;
+  --mb-2-5:40px;
+  --mb-3:48px;
+
+  --z-tooltip:10;
+  --z-fixed:100;
+  --z-model:1000;
+}
+
+body {
+  height: 100%;
+  color:#263A29;
+  font-family:var(--body-font);
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.7;
+  background:#F6FFDE;
+  background-image: url("https://www.transparenttextures.com/patterns/food.png");  
+}
+
+
+
+
+/* code {
+font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+} */
+
+h1,h2,h4{
+color:var(--title-color);
+font-weight: var(--font-semi-bold);
+}
+
+ul{
+list-style: none;
+}
+
+a{
+text-decoration: none;
+}
+
+/* img{
+max-width: 100%;
+height: auto;
+} */
+
+/* Reusable css class */
+.section{
+/* margin: 10px; */
+padding: 16px 0 64px;
+}
+
+.section-title{
+color: var(--first-color);
+font-size: var(--h1);
+
+}
+
+.section-subtitle{
+
+display: block;
+font-size: var(--small-font);
+margin-bottom: var(--mb-3);
+
+
+}
+
+h3 ,p,.section-subtitle{
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: 300;
+}
+
+.section-title,.section-subtitle{
+text-align: center;
+}
+
+
+
+.button{
+background: #22A699;
+background-image: -webkit-linear-gradient(top,#22A699,#E9B384 );
+background-image: -moz-linear-gradient(top,#22A699,#E9B384 );
+background-image: -ms-linear-gradient(top,#22A699 ,#E9B384 );
+background-image: -o-linear-gradient(top,#22A699,#E9B384);
+background-image: linear-gradient(to bottom,#22A699, #E9B384);
+/* -webkit-border-radius: 28;
+-moz-border-radius: 28; */
+border-radius: 10px;
+border: 2px solid transparent;
+font-weight: var(--font-medium);
+color: #ffff;
+font-size: 20px;
+padding: 10px;
+text-decoration: none;
+display: inline-block;
+width: fit-content;
+
+
+}
+
+.button:hover {
+background: darkseagreen;
+transform: translateY(-0.5rem);
+background-image: -webkit-linear-gradient(top, #A1CCD1, #9BCDD2);
+background-image: -moz-linear-gradient(top, #A1CCD1, #9BCDD2);
+background-image: -ms-linear-gradient(top, #A1CCD1, #9BCDD2);
+background-image: -o-linear-gradient(top, #A1CCD1, #9BCDD2);
+background-image: linear-gradient(to bottom, #A1CCD1, #9BCDD2);
+text-decoration: none;
+}
+
+.button-icon{
+font-size: 20px;
+margin-left: 5px;
+transition:.3s;
+}
+.button-flex{
+display: inline-flex;
+align-items: center;
+}
+
+/* .b-example-divider {
+width: 100%;
+height: 0.5rem;
+box-shadow: inset 0 0.5em 1.5em var(--first-color-lighter);
+
+border: solid var(--first-color-lighter);
+border-width: 1px 0;
+
+} */
